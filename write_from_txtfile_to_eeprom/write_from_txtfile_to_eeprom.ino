@@ -1,4 +1,6 @@
-#include <SPIFFS.h>  // ①ライブラリを読み込み
+//#include <SPIFFS.h>  // ESP32
+#include "FS.h"  //ESP8266
+
 
 void setup(void) {
   Serial.begin(115200); // ②Serial設定
