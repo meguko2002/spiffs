@@ -8,5 +8,5 @@
   
   これでESP32のEEPROMにssidとpwdが保存される
 
-## 2. EEPROMに書き込んだssid,pwdの呼び出す
+## 2. EEPROMに書き込んだssid,pwdを呼び出す
 　5. "read_ssid.ino"のように使う
