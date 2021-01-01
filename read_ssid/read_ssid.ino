@@ -11,7 +11,6 @@ void setup() {
   EEPROM.get<st_wifi>(0, buf);
 //  WiFi.begin ( buf.ssid, buf.pass );
   Serial.begin(115200);
-  Serial.println("Really?");
   Serial.println(buf.ssid);
   Serial.println(buf.pass);
 }
