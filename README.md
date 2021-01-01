@@ -1,6 +1,6 @@
 # SSIDとPWDをコードに載せたくないのでそれらをEEPROMに記憶させて見せなくする方法
 
-## 1. textファイルに書かれたssidとpwdをEEPROMに書き込む
+## 1. ssidとpwdをEEPROMに書き込む
   1. ssidとpwdを記載した.textファイルを作成。書き方は「ssid改行pwd」
   2. "/write_from_txtfile_to_eeprom/data"に上記ファイルを保存
   3. ArduinoIDEのツール/ESP32Sketch Data Uploadを押す (シリアルモニタは閉じておく)
