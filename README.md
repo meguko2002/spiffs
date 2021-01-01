@@ -1,4 +1,4 @@
-# SSIDとPWDをコードに載せたくないのでそれらをEEPROMに記憶させて見せなくする方法
+# ESP32で、SSIDとPWDをコードに載せたくないのでそれらをEEPROMに記憶させて見せなくする方法
 
 ## 1. ssidとpwdをEEPROMに書き込む
   1. ssidとpwdを記載した.textファイルを作成。書き方は「ssid改行pwd」
