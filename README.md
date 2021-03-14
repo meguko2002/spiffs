@@ -2,7 +2,7 @@
 
 ## 1. ssidとpwdをEEPROMに書き込む
   1. ssidとpwdを記載した.textファイルを作成。書き方は「ssid改行pwd」
-  2. "/write_from_txtfile_to_eeprom/data"に上記ファイルを保存(フォルダがなければ作る）
+  2. "/write_from_txtfile_to_eeprom/data"に上記ファイルを"ssid.txt"のファイル名で保存("/data"フォルダがなければ新たに用意する）
   3. ArduinoIDEのツール/ESP32Sketch Data Uploadを押す (シリアルモニタは閉じておく)
   4. "write_from_txtfile_to_eeprom.ino"を実行
   
